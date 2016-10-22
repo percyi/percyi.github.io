@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eb8d0c9-8f9c-4553-b7b7-40d3117868fd" name="Default" comment="" />
+    <list default="true" id="4eb8d0c9-8f9c-4553-b7b7-40d3117868fd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e7e12357c5aebbe6f98c5a5164e23c4f27ff9a1a/_base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e7e12357c5aebbe6f98c5a5164e23c4f27ff9a1a/_layout.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/e7e12357c5aebbe6f98c5a5164e23c4f27ff9a1a/_syntax-highlighting.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/11/17/welcome-to-jekyll/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2014/12/20/I-ve-Interviewed-100s-of-Candidates-and-the-Ones-I-Hire-Always-Do-This/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/08/27/how-to-use-this-jekyll-theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2016/10/21/test-theme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/books/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/donate/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/donate/method/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/reference/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/iconfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/css/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/fontawesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/favicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/freud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/jiezishu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/weixin.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/images/zhifubao.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/js/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/styles/js/lessismore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/tag/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/body-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/highlight-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/octocat-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tar-gz-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/zip-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/params.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/percyi.github.io" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/github-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.html" afterPath="" />
+    </list>
     <ignored path="percyi.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,108 +79,7 @@
     <favorites_list name="percyi.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/donate/method/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-693">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/books/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6633">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/reference/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="params.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/params.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="github-dark.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/github-dark.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/print.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,6 +95,7 @@
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/donate/method/index.md" />
         <option value="$PROJECT_DIR$/donate/index.md" />
+        <option value="$PROJECT_DIR$/stylesheets/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -186,16 +143,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="percyi.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="percyi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="percyi.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -283,12 +230,12 @@
       <updated>1477056710346</updated>
       <workItem from="1477056714450" duration="2137000" />
       <workItem from="1477093018865" duration="156000" />
-      <workItem from="1477096270624" duration="4284000" />
+      <workItem from="1477096270624" duration="4810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6584000" />
+    <option name="totallyTimeSpent" value="7110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="582" y="82" width="1442" height="915" extended-state="0" />
