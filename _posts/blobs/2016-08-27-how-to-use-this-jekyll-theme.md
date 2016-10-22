@@ -10,6 +10,8 @@ tag: 教程
 {:toc}
 
 
+> 2016-09-01 换了新博客[Less Or More](https://github.com/luoyan35714/LessOrMore)
+
 致谢
 ====================================
 + 感谢[Less官网]()的样式，本Jekyll框架的样式都是基于Less官网的样式直接拷贝过来的。只是重构了JS，并且加入了Jekyll语法而已。
