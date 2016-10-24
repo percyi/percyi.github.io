@@ -2,8 +2,8 @@
 layout: post
 title:  SVN与GIT的比较
 date:   2015-01-19 13:13:00 +0800
-categories: 杂乱
-tag: Source Control
+categories: DevTools
+tag: git
 ---
 
 * content
@@ -17,7 +17,7 @@ SVN
 ==============================
 * SVN的出现是在2000年，CollabNet公司联系CVS的作者Karl Fogel(RedHat Software)开发的一个产品。产品的目标是彻底取代CVS，对明显的瑕疵进行修复，集合很多开源社区中的意见添加一些新功能，但是还要保证CVS似的开发模式。保证熟悉CVS的开发人员可以快速上手SVN。
 * 在2000年那个年代，硬件设施还是比较贵重的。硬盘的容量也比较小，个人在2008年的时候买过一块250G的硬盘，要500多块钱，更别说再往前推8年。所以SVN首要解决的就是在版本控制的基础上，最大限度地节省存储空间，减少项目成本。于是它的存储方式被设计为差异存储，即每次文件修改，只保存修改的部分。而想要得到最终版本，就需要经过从初版，通过一系列的计算加上每次的修改才能得到。所以一个文件修改过N此之后，再进行操作，会相对比较慢。
-![SVN SAVE METHOD](/images/blog/blobs/difference_between_git_and_svn/1_svn_save_method.jpg)
+![SVN SAVE METHOD](/styles/images/blog/blobs/difference_between_git_and_svn/1_svn_save_method.jpg)
 * 后来在2009年的时候SVN开源给了Apache基金组织。2010年成为Apache基金组织的顶级项目。
 
 GIT
@@ -30,7 +30,7 @@ GIT
 > * 完全分布式 ：近乎所有操作都可本地执行，在SVN中如果在断网的情况下，想提交代码，那是根本不可能实现的，但是在GIT中，这是一件很简单的事情。
 > * 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）：时刻保持数据完整性，在保存到Git之前，所有数据都要进行内容的校验和（checksum(SHA-1加密算法))）计算，并将此结果作为数据的唯一标识和索引
 
-![GIT SAVE METHOD](/images/blog/blobs/difference_between_git_and_svn/2_git_save_method.png)
+![GIT SAVE METHOD](/styles/images/blog/blobs/difference_between_git_and_svn/2_git_save_method.png)
 
 架构角度
 -------------------------------------
@@ -38,12 +38,12 @@ GIT
 SVN
 ==============================
 * SVN作为一个版本控制工具，采用的是集中式管理，所有开发者在开始新一天的工作之前必须从服务器获取代码，然后开发，最后解决冲突，提交。所有的版本信息都放在服务器上。如果脱离了服务器，开发者基本上可以说是无法工作的。
-![SVN WORK FLOW](/images/blog/blobs/difference_between_git_and_svn/3_svn_work_flow.jpg)
+![SVN WORK FLOW](/styles/images/blog/blobs/difference_between_git_and_svn/3_svn_work_flow.jpg)
 
 GIT
 ==============================
 * GIT采用分布式存储，即每个开发者所拥有的都是一个完整的Repository，开发过程中只需要关注自己branch的修改，可以完全离线操作，当开发完一定的模块后Pull下服务器版本的代码，再Merge到develop的Branch上。使得开发可以在任何时间任意地点完成。无需关心网络问题，并且完美解决了数据完整性问题。
-![GIT WORK FLOW](/images/blog/blobs/difference_between_git_and_svn/4_git_work_flow.jpg)
+![GIT WORK FLOW](/styles/images/blog/blobs/difference_between_git_and_svn/4_git_work_flow.jpg)
 
 开发角度
 -------------------------------------

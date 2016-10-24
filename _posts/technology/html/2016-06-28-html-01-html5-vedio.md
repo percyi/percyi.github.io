@@ -2,8 +2,8 @@
 layout: post
 title:  谈谈HTML5中video标签的使用
 date:   2016-06-28 12:55:00 +0800
-categories: 技术文档
-tag: HTML
+categories: html
+tag: blog
 ---
 
 * content

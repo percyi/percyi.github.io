@@ -2,8 +2,8 @@
 layout: post
 title:  angularjs一些简答题
 date:   2016-02-10 12:13:00 +0800
-categories: blog
-tag: Angularjs
+categories: Angularjs
+tag: blog
 ---
 
 * content
