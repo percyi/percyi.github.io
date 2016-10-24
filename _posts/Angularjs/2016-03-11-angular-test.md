@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  类型的比较
+title:  angularjs一些简答题
 date:   2016-01-19 12:13:00 +0800
 categories: blog
 tag: Angularjs
@@ -12,6 +12,8 @@ tag: Angularjs
 
 Angular.js一些简答题
 ===
+
+总结的一些angularjs的简答题，希望对大家学习angular有所帮助。
 
 **1、angularjs的几大特性是什么？**
 
@@ -86,7 +88,11 @@ Angular.js一些简答题
 
 
 
-**7、`{{{{array | filter:23:true}}}}` 这个过滤里的true是什么意思？**
+**7、
+```javascript
+{{array | filter:{age:23}:true}}
+```
+这个过滤里的true是什么意思?
 
 >true表示严格匹配过滤,并不是匹配属性值是否包含过滤条件,而是必须===全等,大小写也严格区分.
 
