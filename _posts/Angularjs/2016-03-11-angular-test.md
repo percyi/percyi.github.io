@@ -92,6 +92,7 @@ Angular.js一些简答题
 ```javascript
 {{array | filter:23:true}}
 ```
+
 这个过滤里的true是什么意思?
 
 >true表示严格匹配过滤,并不是匹配属性值是否包含过滤条件,而是必须===全等,大小写也严格区分.
