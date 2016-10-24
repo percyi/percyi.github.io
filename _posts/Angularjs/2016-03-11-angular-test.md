@@ -90,7 +90,7 @@ Angular.js一些简答题
 
 **7、
 ```javascript
-{{array | filter:{age:23}:true}}
+{{array | filter:23:true}}
 ```
 这个过滤里的true是什么意思?
 
