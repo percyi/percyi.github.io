@@ -89,6 +89,7 @@ Angular.js一些简答题
 
 
 **7、
+
 ```javascript
 {{array | filter:23:true}}
 ```
