@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  angularjs一些简答题
-date:   2016-01-19 12:13:00 +0800
+date:   2016-02-10 12:13:00 +0800
 categories: blog
 tag: Angularjs
 ---
@@ -88,13 +88,7 @@ Angular.js一些简答题
 
 
 
-**7、
-
-```javascript
-{{array | filter:23:true}}
-```
-
-这个过滤里的true是什么意思?
+**7、这个过滤器里的true是什么意思?**
 
 >true表示严格匹配过滤,并不是匹配属性值是否包含过滤条件,而是必须===全等,大小写也严格区分.
 
@@ -193,7 +187,7 @@ $stateProvider
         url: '/index',
         templateUrl: 'tempUrl',
         resolve: {},
-        controller：myCtrl
+        controller:'myCtrl'
     });
 
 ```
@@ -208,8 +202,7 @@ $stateProvider
 
 - 只有当reslove中的promise全部resolved(即数据获取成功)后，才会触发'$stateChangeSuccess'切换路由，进而实例化controller，然后更新模板。
 
-**16、ngRoute默认查找的路由是什么？
-$routeProvider.otherwise(’/index’)是什么作用？**
+**16、ngRoute默认查找的路由是什么？$routeProvider.otherwise(’/index’)是什么作用？**
 
 - ngRoute默认查找的路由是根路由
 
