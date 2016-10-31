@@ -1,0 +1,14 @@
+<div ng-if="$ctrl.hero">
+    <h3>{{$ctrl.hero.name}}</h3>
+    <div>
+        <label>Id:</label>{{$ctrl.hero.id}}
+    </div>
+    <div>
+        <label>Name:</label>
+        <!--双向绑定,-->
+        <input ng-model="$ctrl.hero.name" placeholder="name">
+    </div>
+
+    <!--点击后返回,gotoHeroes函数,返回到-->
+    <button ng-click="$ctrl.gotoHeroes()">Back</button>
+</div>

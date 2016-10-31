@@ -1,0 +1,7 @@
+<div ng-if="$ctrl.report">
+    <h3>{{$ctrl.report.title}}</h3>
+    {{$ctrl.report.id}}
+    <div>
+        <p style="padding: 0.2em" ng-bind-html="$ctrl.report.body"></p>
+    </div>
+</div>

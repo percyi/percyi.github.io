@@ -1,0 +1,4 @@
+<div ng-repeat="hero in $ctrl.heroes" ng-class="{selected:$ctrl.isSelected(hero)}">
+    <!--ng-link后面是一个数组。第一个参数对应的是组件路由配置内的 name属性。第一个字母必须大写。-->
+    <a ng-link="['HeroDetail', {id:hero.id}]">{{hero.name}}</a>
+</div>

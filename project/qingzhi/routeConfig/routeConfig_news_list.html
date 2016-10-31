@@ -1,0 +1,9 @@
+<my-scroll data="{{data}}">
+    <div ng-repeat="report in news"
+         ng-class="{selected:$ctrl.isSelected(hero)}" class="item">
+        <img ng-src="{{report.imgsrc}}" alt="">
+        <span class="reportTitle">
+            <a href="" ng-link="['Report', {id:report.id}]">{{report.title}}</a>
+        </span>
+    </div>
+</my-scroll>
