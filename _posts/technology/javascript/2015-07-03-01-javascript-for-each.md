@@ -2,8 +2,8 @@
 layout: post
 title:  Javascript foreach问题记录
 date:   2015-07-03 11:13:00 +0800
-categories: 技术文档
-tag: javascript
+categories: javascript
+tag: blog
 ---
 
 * content

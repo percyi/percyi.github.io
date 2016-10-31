@@ -2,8 +2,8 @@
 layout: post
 title:  类型的比较
 date:   2016-01-19 12:13:00 +0800
-categories: blog
-tag: JavaScript
+categories: javascript
+tag: blog
 ---
 
 * content
