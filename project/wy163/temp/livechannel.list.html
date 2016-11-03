@@ -1,0 +1,21 @@
+<ion-content class="n-list livechannel">
+    <ion-list
+            show-delete="shouldShowDelete"
+            show-reorder="shouldShowReorder"
+            can-swipe="listCanSwipe">
+        <li class="live-item" ng-repeat="item in items"
+                  class="item-thumbnail-left item" data-id="{{item}}" ui-sref="detail({id:item.docid})">
+
+
+                <img class="image" ng-src="{{item.image}}">
+
+                <p class="room-name">{{item.roomName}}</p>
+
+        </li>
+    </ion-list>
+
+    <ion-infinite-scroll
+            on-infinite="loadMore()"
+            distance="1%">
+    </ion-infinite-scroll>
+</ion-content>

@@ -1,0 +1,25 @@
+$baseFontSize: 41.4px;
+@function pxToRem($px) {
+    @return $px /  $baseFontSize * 1rem /3;
+}
+
+.livechannel{
+    .live-item{
+        padding:0;
+        position:relative;
+        list-style: none;
+        .image{
+            height:pxToRem(520px);
+            width:pxToRem(1242px);
+        }
+
+        .room-name{
+            position:absolute;
+            left:pxToRem(35px);
+            bottom:pxToRem(130px);
+            font-size:pxToRem(50px);
+            color:#fff;
+        }
+    }
+
+}

@@ -1,0 +1,42 @@
+<ion-tabs class="tabs-icon-top ">
+
+    <ion-tab title="新闻" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline" style="z-index:11" href="/list/">
+
+
+
+        <ion-nav-view name='home' >
+
+        </ion-nav-view>
+
+    </ion-tab>
+
+    <ion-tab title="直播" icon-on="ion-ios-clock" icon-off="ion-ios-clock-outline"
+             href="#/home/livechannel">
+        <!-- Tab 2 content -->
+        <ion-nav-view name="livechannel" class="index-panel" ng-animation="slide-left-right" animation="slide-left-right">
+            <!---->
+
+            <!-- 中间内容 -->
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="话题" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline"  href="#/home/newstopic">
+        <!-- Tab 3 content -->
+        <ion-nav-view name="newstopic" class="index-panel" ng-animation="slide-left-right" animation="slide-left-right">
+            <!---->
+
+            <!-- 中间内容 -->
+        </ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="我" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" href="#/home/me">
+        <ion-nav-view name="me" class="index-panel" ng-animation="slide-left-right" animation="slide-left-right">
+            <!---->
+
+            <!-- 中间内容 -->
+        </ion-nav-view>
+    </ion-tab>
+
+
+
+</ion-tabs>

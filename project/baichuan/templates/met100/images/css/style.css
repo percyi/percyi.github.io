@@ -1,0 +1,46 @@
+ @charset "utf-8";
+ .pp h2{  line-height: 90px;
+  font-size: 24px;
+}
+/*首页联系方式*/
+.contactInfo{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 20px;
+
+}
+.leftcontent{ 
+   width: 38%;
+   float: left;
+}
+.rightcontent{ 
+	float: right;
+   width: 60%;
+}
+.honor p{ 
+font-weight: bold;
+line-height: 22px;
+ color: #ff0000;
+ font-size: 14px;
+  
+}
+.honor img{ 
+
+  width: 160px;
+}
+.leftcontent .honor{ 
+
+ border-right: 1px solid #ddd;
+ border-bottom: 1px solid #ddd;
+}
+
+.leftcontent .Contact{ 
+ border-right: 1px solid #ddd;
+}
+
+.tx1{ 
+text-align: center;
+}
+
+.tx1 .editor{ 
+ text-align: left;
+}

@@ -1,0 +1,61 @@
+$baseFontSize: 41.4px;
+@function pxToRem($px) {
+    @return $px /  $baseFontSize * 1rem /3;
+}
+
+.newstopic{
+    background: #eef1f5;
+
+    .live-item{
+
+        background: #fff;
+        font-size:pxToRem(45px);
+        padding:0;
+        position:relative;
+        list-style: none;
+        height:pxToRem(980px);
+        margin:{
+            top:pxToRem(30px);
+        }
+
+        .title-line{
+
+            height:pxToRem(120px);
+            position:relative;
+
+            padding:{
+                left:pxToRem(200px);
+                top:pxToRem(60px);
+                bottom:pxToRem(25px);
+            }
+
+            font-size:pxToRem(40px);
+            font-weight:200;
+
+            .headpic{
+                width:pxToRem(130px);
+                height:pxToRem(130px);
+                border-radius:pxToRem((65)*1px);
+                position:absolute;
+                top:pxToRem(35px);
+                left:pxToRem(35px)
+            }
+            .title{
+                font-size:pxToRem(35px);
+            }
+        }
+
+        .image{
+            img {
+                height: pxToRem(525px);
+                width: pxToRem(1242px);
+            }
+        }
+
+        .body{
+             padding:pxToRem(46px);
+            font-size:pxToRem(45px);
+        }
+    }
+
+}

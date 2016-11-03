@@ -1,0 +1,73 @@
+<div class="detail-container">
+    <div class="bar bar-header bar-light detail-white">
+        <a onclick="history.back()" class=" btn-back"><</a>
+        <a class="reply-count" ui-sref="home.comment({id:news.docid})">{{news.replyCount+'跟帖'}}</a>
+    </div>
+    <ion-content class="detail ">
+
+
+        <h2 class="title">{{news.title}}</h2>
+
+        <div class="meta">
+            <img class="sourceImg" ng-if="news.sourceinfo.tid"
+                 ng-src="{{'http://img2.cache.netease.com/m/newsapp/topic_icons/'+news.sourceinfo.tid+'.png'}}"/>
+            <span class="source">{{news.source}}</span>
+            <span class="tag" ng-if="news.articleTags">{{news.articleTags}}</span>
+            <span class="ptime">{{news.ptime|getpdate}}</span>
+        </div>
+        <div bind-html-compile="news.body|replceimg:news" class="body"></div>
+
+        <!-- JiaThis Button BEGIN -->
+        <!-- JiaThis Button BEGIN -->
+        <!-- <div class="jiathis_style_m"></div>
+         <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_m.js" charset="utf-8"></script>
+        --> <!-- JiaThis Button END -->
+        <!-- JiaThis Button END -->
+        <ion-list>
+            <div class="comment" comment news="news">
+                <li class="bar-title">热门跟帖
+                </li>
+
+                <li class="item item-avatar" ng-repeat="(key,id) in news.hotList.commentIds|filter:topThree">
+                    <!--track by key-->
+
+                    <img ng-src="{{hotList.comments[id].user.avatar||'http://img5.cache.netease.com/tie/images/noface80_80.png'}}">
+                    <div class="nest-comment" netst-comment>
+                        <div class="wrap-border" get-id>
+                            <h2 style="text-align:left;">
+                                <span class="floor" ng-show="idx">{{idx}}</span><span class="nickname">{{hotList.comments[id].user.nickname ||'火星网友'}}</span>
+                                <span class="from">{{hotList.comments[id].from}}</span>
+                            </h2>
+                            <p class="from">{{hotList.comments[id].user.location}}</p>
+
+
+                            <div class="contentWrap" show-all>
+                                <p class="content" id="{{id}}" ng-bind-html="getContent()"
+                                   ng-style="{height:isHidden&&height+'px'}">
+                                </p>
+                         <span class="show" ng-click="fn()" ng-if="isHidden">
+                                显示全部<span class="rotate">&lt;</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <acomment class="look-more" ui-sref="home.({id:news.docid})">查看更多跟帖</acomment>
+                <ul class="rel-sys">
+                    <li class="bar-title">相关新闻</li>
+                    <ul class="list">
+                        <li class="item item-thumbnail-left" ng-repeat="sys in news.relative_sys" href="#">
+                            <img ng-src="{{sys.imgsrc}}">
+                            <h2 class="title">{{sys.title}}</h2>
+                            <p><span>{{sys.source}}</span><span>{{sys.ptime|getpdate}}</span></p>
+                        </li>
+                    </ul>
+                </ul>
+
+
+            </div>
+
+        </ion-list>
+
+
+    </ion-content>
+</div>
