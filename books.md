@@ -11,14 +11,14 @@ permalink: /books/
 2016书单
 -----------------------------------------------------------------
 
-+ 《Think in java 4th》
-+ 《鸟哥的Linux私房菜基础学习篇-第三版》
-+ 《重构》
-+ 《Getting real》
-+ 《深入JVM虚拟机》
-+ 《Head first设计模式》
-+ 《算法(第四版)》
-+ 《Maven实战》
++ 《JavaScript高级程序设计第三版》
++ 《JavaScript权威指南第六版》
++ 《Build Your Own Angularjs》
++ 《深入浅出ES6》
++ 《Node.js开发指南》
++ 《Node.js权威指南》
++ 《JavaScript设计模式》
++ 《高难度谈话》
 + 《HTTP协议详解》
-+ 《TCP/IP协议详解-卷一》
++ 《少有人走的路》
 + 《阿弥陀佛么么哒》
